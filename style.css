@@ -21,12 +21,35 @@ body{
 
 .content{
     display: flex;
+    flex-direction: column;
     gap: 5px;
     flex: 15;
 }
 
-.image-info{
+.heroimage{
+    max-width: 50%;
+    height: auto;
+}
 
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagebox{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.imageinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .image{
@@ -35,6 +58,45 @@ body{
     height: 100px;
     width: 100px;
 }
+
+.quote{
+    display: flex;
+
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calltoaction{
+    flex: 3;
+    background-color: #3882F6;
+    border: 2px sold #3882F6;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.actiontext{
+    display: flex;
+    flex-direction: column;
+}
+
+.actionbutton{
+
+}
+.statementtitle{
+    margin-bottom: -10px;
+}
+
+.gutter{
+    flex: 1;
+}
+
 
 .footer{
     flex: 1;
