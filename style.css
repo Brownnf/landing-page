@@ -61,6 +61,24 @@ body{
 
 .quote{
     display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+
+
+}
+
+.qtext{
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.qauther{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
 
 }
 
